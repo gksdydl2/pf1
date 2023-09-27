@@ -1,0 +1,35 @@
+section#refund {
+  background-color: #DFECFE;
+}
+section#refund div.wrap {
+  width: 1440px;
+  position: relative;
+}
+section#refund div.wrap::after{
+  content: "";
+  background-image: url(../img/sosang.png);
+  width: 788px;
+  height: 526px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -232px;
+}
+section#refund div.wrap hgroup {
+  
+}
+section#refund div.wrap hgroup h2 {
+  font-weight: 300;
+}
+section#refund div.wrap hgroup h3 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+section#refund div.wrap a {
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 5px 50px;
+}

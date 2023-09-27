@@ -1,0 +1,420 @@
+header{
+  border-bottom: 1px solid transparent;
+}
+header:hover{
+  border-bottom: 1px solid #eee;
+}
+header .gnb{
+  width: 1632px;
+  margin: 0 auto;
+  padding: 30px 50px 0 50px;
+  position: relative;
+}
+header .gnb .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .gnb .top h1{
+  display: flex;
+  align-items: center;
+  width: 120px;
+  padding: 20px 20px 20px 0;
+}
+header .gnb .top h1 a{
+  font-size: 0;
+  width: 120px;
+  height: 18px;
+  display: inline-block;
+  background-image: url(../img/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header .gnb .top .mypage{
+  display: flex;
+  gap: 24px;
+}
+header .gnb .top .mypage li{
+}
+header .gnb .top .mypage li a{
+}
+header .gnb .top .mypage li a.wish{
+  background-image: url(../img/wish.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+  width: 26px;
+  height: 26px;
+  display: flex;
+}
+header .gnb .top .mypage li a.cart{
+  background-image: url(../img/cart.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+  width: 26px;
+  height: 26px;
+  display: flex;
+}
+header .gnb .top .mypage li a.user{
+  background-image: url(../img/user.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+  width: 26px;
+  height: 26px;
+  display: flex;
+}
+header .gnb .wrap{
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  justify-content: space-between;
+  font-weight: bold;
+}
+header .gnb .wrap ul.menu{
+  display: flex;
+  gap: 22px;
+}
+header .gnb .wrap ul.menu li{
+}
+header .gnb .wrap ul.menu li a{
+  display: block;
+  border-bottom: 2px solid transparent;
+  line-height: 4;
+}
+header .gnb .wrap ul.menu li:nth-of-type(9) a{
+  position: relative;
+}
+header .gnb .wrap ul.menu li:nth-of-type(9) a::after{
+  content: "";
+  border-right: 1px solid;
+  height: 19px;
+  display: inline-block;
+  position: absolute;
+  right: -11px;
+  top: 35%;
+}
+header .gnb .wrap ul.menu li a:hover{
+  border-bottom: 2px solid;
+}
+header .gnb .wrap div{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+header .gnb .wrap ul.user{
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+header .gnb .wrap ul.user li a{
+  display: block;
+  border-bottom: 2px solid transparent;
+  line-height: 4;
+}
+header .gnb .wrap ul.user li a:hover{
+  border-bottom: 2px solid;
+}
+header .gnb .top form{
+  background-color: #eee;
+  border-radius: 30px;
+  padding: 0 40px 0 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+header .gnb .top form input{
+  border: none;
+  background-color: transparent;
+  width: 434px;
+  height: 40px;
+  padding: 0 40px 0 20px;
+}
+header .gnb .top form button.search{
+  background-color: transparent;
+  border: none;
+  background-image: url(../img/search.svg/);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 15px;
+}
+
+/* 타이틀 영역 */
+#title{
+  background-image: url(../img/titlebg.png);
+  width: 1632px;
+  margin: 0 auto;
+  height: 670px;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 40px;
+}
+#title .wrap{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#title .wrap h2{
+  color: white;
+  font-size: 150px;
+}
+/* 제품안내 */
+
+/* 모바일 & PC,TV & 오디오 */
+#mobile,#tv{
+  line-height: 1.6;
+  padding-bottom: 50px;
+}
+#mobile .wrap,#tv .wrap{
+  overflow: hidden;
+  background-color: #F9F9F9;
+  padding: 80px 0;
+}
+#mobile h2{
+  
+}
+#mobile ul.list,#tv ul.list{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#mobile div.contents{
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 400%;
+}
+#mobile div.contents article,#tv div.contents article{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mobile div.contents article figure{
+  width: 680px;
+  margin: 30px 0;
+}
+#mobile div.contents article figure img{
+  width: 100%;
+  background-color: #EEEEEE;
+  border-radius: 30px;
+}
+#mobile div.contents article figure figcaption{
+  
+}
+#mobile div.contents article h3{
+  order: 2;
+}
+#mobile div.contents article p{
+  order: 1;
+}
+#mobile div.contents article a{
+  order: 3;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* TV&오디오 */
+#tv .wrap{
+  position: relative;
+  color: white;
+  padding: 0;
+  background-color: transparent;
+}
+#tv .wrap h2{
+  position: absolute;
+  width: 100%;
+  top: 30px;
+}
+#tv ul.list{
+  position: absolute;
+  width: 100%;
+  top: 70px;
+}
+#tv ul.list a{
+  
+  color: white;
+}
+#tv div.contents{
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 500%;
+  height: 800px;
+}
+#tv div.contents article{
+  background-size: cover;
+  background-position: center;
+  justify-content: end;
+  padding-bottom: 100px;
+}
+#tv div.contents article:nth-child(1){
+  background-image: url(../img/tv1.jpg);
+}
+#tv div.contents article:nth-child(2){
+  background-image: url(../img/tv2.jpg);
+}
+#tv div.contents article:nth-child(3){
+  background-image: url(../img/tv3.jpg);
+}
+#tv div.contents article:nth-child(4){
+  background-image: url(../img/tv4.jpg);
+}
+#tv div.contents article:nth-child(5){
+  background-image: url(../img/tv5.jpg);
+}
+
+/* 어사이드 */
+aside{
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+aside a{
+  display: block;
+  font-size: 0;
+}
+aside .more{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: url(../img/plus.svg), linear-gradient(to top, #a27cf7, skyblue);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+aside .top{
+  width: 54px;
+  height: 54px;
+  border-radius: 10%;
+  background-color: black;
+  background-image: url(../img/top.svg);
+  background-size: cover;
+}
+
+/* 풋터 */
+footer {
+  background-color: #008AFF;
+  color: white;
+}
+footer .wrap {
+  width: auto;
+}
+footer .wrap h3{
+  width: 120px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-image: url(../img/whitelogo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 18px;
+  font-size: 0;
+}
+footer .wrap .full{
+  margin-bottom: 50px;
+  border-bottom: 1px solid;
+}
+footer .wrap .fnb {
+  flex-wrap: wrap;
+  width: 1440px;
+  margin: 0 auto;
+  height: 330px;
+  position: relative;
+  padding-bottom: 50px;
+}
+footer .wrap .fnb>li {
+  width: calc(100% / 6);
+  box-sizing: border-box;
+}
+footer .wrap .fnb>li:first-child{
+  width: calc(100% / 6 * 2);
+}
+footer .wrap .fnb>li:nth-child(2){
+  
+}
+footer .wrap .fnb>li:nth-child(3){
+  
+}
+footer .wrap .fnb>li:nth-child(4){
+  
+}
+footer .wrap .fnb>li:nth-child(5){
+  /*! border-right: 1px solid #d9d9d9; */
+}
+footer .wrap .fnb>li:nth-child(6){
+  /*! transform: translateX(200%); */
+  position: absolute;
+  top: 180px;
+  left: calc(100% / 6 * 5);
+}
+footer .wrap .fnb>li:last-child{
+  /*! transform: translateX(200%); */
+  position: absolute;
+  top: 180px;
+  left: calc(100% / 6 * 4);
+}
+footer .wrap .fnb li h2 {
+  line-height: 3;
+  font-size: 18px;
+}
+footer .wrap .fnb li .sub {
+}
+footer .wrap .fnb li .sub li {
+}
+footer .wrap .fnb li .sub li a {
+  color: white;
+  line-height: 2.5;
+  font-size: 14px;
+}
+footer .wrap .address{
+  
+}
+footer .wrap .address address{
+  width: 1440px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+footer .wrap .address address a{
+  color: #008AFF;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0 10px;
+  margin-left: 2px;
+}
+footer .wrap .address p{
+  width: 1440px;
+  margin: 0 auto;  
+  position: relative;
+  line-height: 1.6;
+}
+/* footer .wrap .address p:nth-of-type(3)::after{
+  content: "";
+  background-image: url(../img/logo.svg);
+  display: block;
+  width: 210px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  top: 24px;
+} */
+footer .wrap .address p:nth-of-type(4){
+  margin-top: 30px;
+}
+
+

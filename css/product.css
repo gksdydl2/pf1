@@ -1,0 +1,67 @@
+#product {
+}
+#product .wrap {
+}
+#product .wrap h2 {
+  width: 100%;
+  font-weight: bold;
+}
+#product .wrap ul {
+}
+#product .wrap ul li {
+  margin: 40px 0;
+}
+#product .wrap ul li a {
+  align-items: end;
+}
+#product .wrap ul li a::before{
+  content: "";
+  display: block;
+  width: 1200px;
+  height: 227px;
+  background-size: cover;
+}
+#product .wrap ul li:nth-of-type(1) a{
+
+}
+#product .wrap ul li:nth-of-type(1) a::before{
+  background-image: url(../img/product1.jpg);
+}
+#product .wrap ul li:nth-of-type(2) a{
+}
+#product .wrap ul li:nth-of-type(2) a::before{
+  background-image: url(../img/pr2.jpg);
+}
+#product .wrap ul li:nth-of-type(3) a{
+}
+#product .wrap ul li:nth-of-type(3) a::before{
+  background-image: url(../img/pr3.jpg);
+}
+#product .wrap ul li:nth-of-type(4) a{
+}
+#product .wrap ul li:nth-of-type(4) a::before{
+  background-image: url(../img/pr4.jpg);
+}
+#product .wrap ul li:nth-of-type(5) a{
+}
+#product .wrap ul li:nth-of-type(5) a::before{
+  background-image: url(../img/pr5.jpg);
+}
+#product .wrap ul li:nth-child(odd) a{
+  display: flex;
+}
+#product .wrap ul li:nth-child(even) a{
+  display: flex;
+  flex-direction: row-reverse;
+}
+#product .wrap ul li a hgroup {
+  padding: 0 40px;
+}
+#product .wrap ul li a hgroup h3 {
+  font-size: 16px;
+  line-height: 3;
+  color: #737373;
+}
+#product .wrap ul li a hgroup h4 {
+  font-weight: bold;
+}
