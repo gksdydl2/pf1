@@ -134,7 +134,7 @@ header .gnb .top form input{
 header .gnb .top form button.search{
   background-color: transparent;
   border: none;
-  background-image: url(../img/search.svg/);
+  background-image: url(../img/search.svg);
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 0px;
