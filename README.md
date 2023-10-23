@@ -1,9 +1,10 @@
 # 프로젝트명 : 삼성전자 홈페이지 클론코딩
-PRODUCT 부분 
+PRODUCT 섹션의 디자인만 심미성을 가미하여 리뉴얼하여 코딩하였습니다.
 
 ## 원본 웹사이트
 원본 url: [https://www.samsung.com/sec/galaxycampus/?galaxy-s23&cid=sec_paid_ppc_google-pc_GalaxyCampusStore_ecommerce_searchad_text_20230301_%EA%B0%A4%EB%9F%AD%EC%8B%9C%ED%8F%B0&utm_source=google-pc&utm_medium=searchad&utm_campaign=GalaxyCampusStore&utm_term=%EA%B0%A4%EB%9F%AD%EC%8B%9C%ED%8F%B0&gclid=Cj0KCQjwx5qoBhDyARIsAPbMagASUuO3szplTaGiVIuxe-UwKnrc74WNQnAGd4oAHfzjP9ChBm-5ELwaApGWEALw_wcB](https://www.samsung.com/sec/)
-![image](https://github.com/gksdydl2/pf1/assets/142553002/9e0cf336-9d57-4004-8bda-6592718bcd05)
+![image](https://github.com/gksdydl2/pf1/assets/142553002/af60b258-907c-428e-8750-6a375517fd64)
+
 
 
 ## 클론 웹사이트 스크린 샷 링크
