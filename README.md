@@ -3,7 +3,7 @@ PRODUCT 부분
 
 ## 원본 웹사이트
 (작은 스크린샷 이미지 배치)
-원본 url: https://www.samsung.com/sec/galaxycampus/?galaxy-s23&cid=sec_paid_ppc_google-pc_GalaxyCampusStore_ecommerce_searchad_text_20230301_%EA%B0%A4%EB%9F%AD%EC%8B%9C%ED%8F%B0&utm_source=google-pc&utm_medium=searchad&utm_campaign=GalaxyCampusStore&utm_term=%EA%B0%A4%EB%9F%AD%EC%8B%9C%ED%8F%B0&gclid=Cj0KCQjwx5qoBhDyARIsAPbMagASUuO3szplTaGiVIuxe-UwKnrc74WNQnAGd4oAHfzjP9ChBm-5ELwaApGWEALw_wcB
+원본 url: [https://www.samsung.com/sec/galaxycampus/?galaxy-s23&cid=sec_paid_ppc_google-pc_GalaxyCampusStore_ecommerce_searchad_text_20230301_%EA%B0%A4%EB%9F%AD%EC%8B%9C%ED%8F%B0&utm_source=google-pc&utm_medium=searchad&utm_campaign=GalaxyCampusStore&utm_term=%EA%B0%A4%EB%9F%AD%EC%8B%9C%ED%8F%B0&gclid=Cj0KCQjwx5qoBhDyARIsAPbMagASUuO3szplTaGiVIuxe-UwKnrc74WNQnAGd4oAHfzjP9ChBm-5ELwaApGWEALw_wcB](https://www.samsung.com/sec/)
 
 ## 클론 웹사이트 스크린 샷 링크
 클론코딩페이지 url : https://gksdydl2.github.io/pf1/
